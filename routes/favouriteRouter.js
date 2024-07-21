@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const { checkUserAuth } = require("../middlewares/userAuth");
-const wrapAsync = require("../../backend test/utils/wrapAsync");
+const wrapAsync = require("../utils/wrapAsync");
 const User = require("../models/User");
 
 
